@@ -103,7 +103,7 @@ daily_activity$VeryActiveHours <- round((daily_activity$VeryActiveMinutes/60), 1
 
 | __Daily Activity__   | __Daily Sleep__  |
 | ------------- | ------------- |
-| <p align="center"><img width="100%" src="./images/summary_daily_activity.png"></p> | <p align="center"><img width="400px" src="./images/summary_sleep.png"></p>| 
+| <p align="center"><img width="100%" src="./images/summary_daily_activity.png"></p> | <p align="center"><img width="500px" src="./images/summary_sleep.png"></p>| 
 
 People made 7638 steps walking 5.5 distance. They spend more than 16 hours without activity, 30 minutes in a very active activity and burn 2304 calories. They also sleep 7 hours daily and stay 8 hours in bed in average.
 
