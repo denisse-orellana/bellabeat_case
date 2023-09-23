@@ -1,8 +1,8 @@
-# Bellabeat Case Study
+# 📊 Bellabeat Case Study
 
 This case develops the data analysis process of Ask, Prepare, Process, Analyse, Share and Act of the Google Data Analytics Certificate.
 
-* __Time of analysis v1: September 11, 2023.__
+* __Time of analysis v1: August 24, 2023.__
 * __Tools used in v1: R, Tableau, Excel.__
 
 ## Background
@@ -65,7 +65,7 @@ __Data Inconsistencies:__
 #### Cleaning Process
 The complete cleaning detail is documented in ```case_bellabeat.R```.
 
-__1. Date Format transformed__: daily_steps, sleep_day, daily_calories and weight_log data changed from ```Month/Day/Year 00:00:00 AM``` to ```Month/Day/Year```.
+__a. Date Format transformed__: daily_steps, sleep_day, daily_calories and weight_log data changed from ```Month/Day/Year 00:00:00 AM``` to ```Month/Day/Year```.
 
 ```R
 daily_steps <- daily_steps %>% 
@@ -74,7 +74,7 @@ daily_steps <- daily_steps %>%
   rename("Date" = "ActivityDay")
 ```
 
-__2. Date Format transformed to Hour__: hourly_steps and heart_rate changed from ```Month/Day/Year 00:00:00 AM``` to ```00:00```.
+__b. Date Format transformed to Hour__: hourly_steps and heart_rate changed from ```Month/Day/Year 00:00:00 AM``` to ```00:00```.
 
 ```R
 hourly_steps$ActivityHour = as.POSIXct(hourly_steps$ActivityHour, format = "%m/%d/%Y %I:%M:%S %p") 
@@ -82,15 +82,18 @@ hourly_steps$ActivityHour = format(hourly_steps$ActivityHour, format = "%H")
 hourly_steps <- rename(hourly_steps, "Hour" = "ActivityHour" )
 ```
 
-__3. Date Format transformed to Weekdays__: daily_activity changed from ```Month/Day/Year 00:00:00 AM``` to ```Monday```.
+__c. Date Format transformed to Weekdays__: daily_activity changed from ```Month/Day/Year 00:00:00 AM``` to ```Monday```.
 
 ```R
 daily_activity$Weekday <- weekdays(as.Date(daily_activity$ActivityDate, format = "%m/%d/%Y"))
-# specify the levels in factor and then order by weekday
+# To specify the levels in factor and then order by weekday
 daily_activity$Weekday <- ordered(daily_activity$Weekday, levels=c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"))
 ```
 
 ### 4. Analyse
+
+### 4.1. Summary
+
 
 
 ### 5. Share
