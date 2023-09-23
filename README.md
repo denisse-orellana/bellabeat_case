@@ -60,7 +60,7 @@ __Data Inconsistencies:__
 * There are differences in the time format when the data was collected daily in many tables, which difficults its merge. This will be change from ```Month/Day/Year 00:00:00 AM``` to ```Month/Day/Year```.
 * For the hourly data colleted, the the format will be transform from Date to Hour from ```Month/Day/Year 00:00:00 AM``` to ```00:00```.
 * For the daily data collected, some will be transform from the date format in the days of the week from ```Month/Day/Year 00:00:00 AM``` to ```Monday```.
-* The data collected in minutes will be change to hours to further analysis.
+* The data collected in minutes will be change to hours for further analysis and better understanding.
 
 #### Cleaning Process
 The complete cleaning detail is documented in ```case_bellabeat.R```.
@@ -90,13 +90,36 @@ daily_activity$Weekday <- weekdays(as.Date(daily_activity$ActivityDate, format =
 daily_activity$Weekday <- ordered(daily_activity$Weekday, levels=c("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"))
 ```
 
+__d. Transform minutes to hours:__ 
+
+```R
+daily_activity$SedentaryHours <- round((daily_activity$SedentaryMinutes/60), 1)
+daily_activity$VeryActiveHours <- round((daily_activity$VeryActiveMinutes/60), 1)
+```
+
 ### 4. Analyse
 
 ### 4.1. Summary
 
+__Daily Activity__ 
+<p align="left"><img width="70%" src="./images/summary_daily_activity.png"></p>
 
+People made 7638 steps walking 5.5 distance. They expend more than 16 hours without activity and 30 minutes in a very active activity in average.
+
+
+__Daily Sleep__ 
+<p align="left"><img width="70%" src="./images/summary_daily_sleep.png"></p>
+People sleeps 7 hours daily and 8 hours in bed in average.
+
+| __Daily Activity__   | __Daily Sleep__  |
+| ------------- | ------------- |
+| <p align="center"><img width="100%" src="./images/summary_daily_activity.png"></p> | <p align="center"><img width="100%" src="./images/summary_daily_sleep.png"></p>|
 
 ### 5. Share
+
+Presentation
+Tableau 
+
 ### 6. Act
 
 ## Conclusions
