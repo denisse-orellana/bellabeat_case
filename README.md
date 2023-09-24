@@ -113,16 +113,25 @@ Daily, people made 9687 steps walking 6.5 distance. They spend 11 hours without 
 
 Hourly, people made 673 steps with a heart rate of 78 and burn 127 calories in average.
 
-### 4.2. 
+### 4.2. Steps
+
+__Daily Activity:__ Total Steps vs. Calories
 
 <p align="center"><img width="100%" src="./images/steps_vs_calories.png"></p> 
 
 
-__Daily Activity:__ Total Steps vs. Active Hours
+__Daily Activity:__ Total Steps vs. Activity Hours
 
 | <p align="center"><img width="100%" src="./images/steps_vs_active_hours.png"></p> | <p align="center"><img width="100%" src="./images/steps_vs_fairly_hours.png"></p>  | 
 | ------------- | ------------- | 
 | <p align="center"><img width="100%" src="./images/steps_vs_lightly_hours.png"></p> | <p align="center"><img width="100%" src="./images/steps_vs_sedentary_hours.png"></p> |
+
+<p align="center"><img width="100%" src="./images/activity_hours_pie_chart.png"></p> 
+
+<p align="center"><img width="100%" src="./images/activity_hours_bar_chart.png"></p> 
+
+<p align="center"><img width="100%" src="./images/steps_vs_weekday.png"></p> 
+
 
 ### 5. Share
 
