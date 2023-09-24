@@ -105,7 +105,7 @@ daily_activity$VeryActiveHours <- round((daily_activity$VeryActiveMinutes/60), 1
 | ------------- | ------------- | 
 | <p align="center"><img width="900" src="./images/summary_daily_activity.png"></p> | <p align="center"><img width="100%" src="./images/sum_daily_sleep.png"></p> | 
 
-Daily, people made 9687 steps walking 6.5 distance. They spend 11 hours without activity, 40 minutes in a very active activity and burn 2052 calories. They also sleep 7.2 hours daily and stay in bed 7.5 hours in average.
+Daily, people made 9687 steps walking 6.5 distance. They spend 11 hours without activity, 40 minutes in a very active activity, and burn 2052 calories. They also sleep 7.2 hours daily and stay in bed 7.5 hours and have a weight of 64 Kg in average.
 
 | __Hourly Activity__  | 
 | ------------- | 
@@ -114,6 +114,15 @@ Daily, people made 9687 steps walking 6.5 distance. They spend 11 hours without 
 Hourly, people made 673 steps with a heart rate of 78 and burn 127 calories in average.
 
 ### 4.2. 
+
+<p align="center"><img width="100%" src="./images/steps_vs_calories.png"></p> 
+
+
+__Daily Activity:__ Total Steps vs. Active Hours
+
+| <p align="center"><img width="100%" src="./images/steps_vs_active_hours.png"></p> | <p align="center"><img width="100%" src="./images/steps_vs_fairly_hours.png"></p>  | 
+| ------------- | ------------- | 
+| <p align="center"><img width="100%" src="./images/steps_vs_lightly_hours.png"></p> | <p align="center"><img width="100%" src="./images/steps_vs_sedentary_hours.png"></p> |
 
 ### 5. Share
 
