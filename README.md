@@ -105,7 +105,7 @@ daily_activity$VeryActiveHours <- round((daily_activity$VeryActiveMinutes/60), 1
 | ------------- | ------------- | 
 | <p align="center"><img width="900" src="./images/summary_daily_activity.png"></p> | <p align="center"><img width="100%" src="./images/sum_daily_sleep.png"></p> | 
 
-Daily, the people took 9687 steps and walked 6.5 distance. They spent 11 hours without activity, 40 minutes in a very active activity, and burnt 2052 calories. They also slept 7.2 hours and stayed in bed 7.5 hours, with a weight of 64 Kg average.
+Daily, the people took 9687 steps and walked 6.5 distance. They spent 11 hours without activity, 40 minutes in a very active activity, and burnt 2052 calories. They also slept 7.2 hours and stayed in bed 7.5 hours, and their weight is of 64 Kg average.
 
 | __Hourly Activity__  | 
 | ------------- | 
@@ -134,8 +134,25 @@ __Daily Activity:__ Total Steps vs. Activity Hours
 
 <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> 
 
-<p align="center"><img width="100%" src="./images/active_hours_vs_calories.png"></p> 
+<p align="center"><img width="100%" src="./images/active_hours_vs_calories.png"></p>  
 
+<p align="center"><img width="100%" src="./images/hours_asleep_vs_steps.png"></p> 
+
+<p align="center"><img width="100%" src="./images/steps_vs_weight.png"></p> 
+
+<p align="center"><img width="100%" src="./images/hours_asleep_vs_in_bed.png"></p> 
+
+<p align="center"><img width="100%" src="./images/hours_asleep_vs_calories.png"></p> 
+
+### Hourly activity
+
+<p align="center"><img width="100%" src="./images/hours_vs_heartrate.png"></p> 
+
+<p align="center"><img width="100%" src="./images/hours_vs__steps.png"></p> 
+
+<p align="center"><img width="100%" src="./images/hours_vs__calories.png"></p> 
+
+<p align="center"><img width="100%" src="./images/steps_vs_heart_vs_calories.png"></p>
 
 
 ### 5. Share
