@@ -113,12 +113,14 @@ Daily, the people took 9687 steps and walked 6.5 distance. They spent 11 hours w
 
 Hourly, people took 715 steps with a heart rate of 79 and burnt 144 calories in average.
 
-### 4.2. Steps
+### 4.2. Daily Activity
 
-__Daily Activity:__ Total Steps vs. Calories
+#### Activity Intensity
 
-<p align="center"><img width="100%" src="./images/steps_vs_calories.png"></p> 
+| <p align="center"><img width="100%" src="./images/activity_hours_pie_chart.png"></p>   | <p align="center"><img width="100%" src="./images/activity_hours_bar_chart.png"></p> |
+| ------------- | -----------
 
+#### Steps
 
 __Daily Activity:__ Total Steps vs. Activity Hours
 
@@ -126,25 +128,32 @@ __Daily Activity:__ Total Steps vs. Activity Hours
 | ------------- | ------------- | 
 | <p align="center"><img width="100%" src="./images/steps_vs_lightly_hours.png"></p> | <p align="center"><img width="100%" src="./images/steps_vs_sedentary_hours.png"></p> |
 
-<p align="center"><img width="100%" src="./images/activity_hours_pie_chart.png"></p> 
-
-<p align="center"><img width="100%" src="./images/activity_hours_bar_chart.png"></p> 
-
 <p align="center"><img width="100%" src="./images/steps_vs_weekday.png"></p> 
 
 <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> 
 
+#### Calories
+
+<p align="center"><img width="100%" src="./images/steps_vs_calories.png"></p> 
+
 <p align="center"><img width="100%" src="./images/active_hours_vs_calories.png"></p>  
 
-<p align="center"><img width="100%" src="./images/hours_asleep_vs_steps.png"></p> 
+
+#### Weight
 
 <p align="center"><img width="100%" src="./images/steps_vs_weight.png"></p> 
+
+#### Hours asleep
+
+<p align="center"><img width="100%" src="./images/hours_asleep_vs_steps.png"></p> 
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_in_bed.png"></p> 
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_calories.png"></p> 
 
-### Hourly activity
+### 4.3. Hourly activity
+
+#### Hours vs. Heart Rate vs. Steps vs. Calories
 
 <p align="center"><img width="100%" src="./images/hours_vs_heartrate.png"></p> 
 
@@ -152,7 +161,10 @@ __Daily Activity:__ Total Steps vs. Activity Hours
 
 <p align="center"><img width="100%" src="./images/hours_vs__calories.png"></p> 
 
+#### Steps vs. Heart Rate vs. Calories
+
 <p align="center"><img width="100%" src="./images/steps_vs_heart_vs_calories.png"></p>
+
 
 
 ### 5. Share
