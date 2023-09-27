@@ -74,12 +74,17 @@ daily_steps <- daily_steps %>%
   rename("Date" = "ActivityDay")
 ```
 
-__b. Date Format transformed to Hour__: hourly_steps and heart_rate changed from ```Month/Day/Year 00:00:00 AM``` to ```00:00```.
+__b. Date Format transformed to Hour__: hourly_steps and heart_rate changed to separate Date and Hour, from ```Month/Day/Year 00:00:00 AM``` to ```Month/Day/Year``` and ```00:00```.
 
 ```R
+hourly_steps <- na.omit(hourly_steps)
+hourly_steps <- hourly_steps[hourly_steps$StepTotal != 0, ]
 hourly_steps$ActivityHour = as.POSIXct(hourly_steps$ActivityHour, format = "%m/%d/%Y %I:%M:%S %p") 
-hourly_steps$ActivityHour = format(hourly_steps$ActivityHour, format = "%H")
-hourly_steps <- rename(hourly_steps, "Hour" = "ActivityHour" )
+# date
+hourly_steps$Date = format(hourly_steps$ActivityHour, format = "%m/%d/%Y")
+# hour
+hourly_steps$Hour = format(hourly_steps$ActivityHour, format = "%H")
+hourly_steps <- subset(hourly_steps, select = -ActivityHour)
 ```
 
 __c. Date Format transformed to Weekdays__: daily_activity changed from ```Month/Day/Year 00:00:00 AM``` to ```Monday```.
