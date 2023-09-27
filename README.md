@@ -153,7 +153,7 @@ __Daily Activity:__ Total Steps vs. Activity Hours
 
 ### 4.3. Hourly activity
 
-#### Hours vs. Heart Rate vs. Steps vs. Calories
+#### Hours compare to Heart Rate vs. Steps vs. Calories
 
 <p align="center"><img width="100%" src="./images/hours_vs_heartrate.png"></p> 
 
@@ -174,6 +174,5 @@ Tableau
 
 ### 6. Act
 
-## Conclusions
-
 * The data must have a sample that is representative of the population. 
+
