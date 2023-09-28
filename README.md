@@ -125,9 +125,9 @@ Hourly, people took 715 steps with a heart rate of 79 and burnt 144 calories in 
 | <p align="center"><img width="100%" src="./images/activity_hours_pie_chart.png"></p>   | <p align="center"><img width="100%" src="./images/activity_hours_bar_chart.png"></p> |
 | ------------- | -----------
 
-The people engage in a total of 29% of hours of the day doing some physical activity, this means a total of 4,7 hours. They spend 40 minutes in a Very activity, 30 minutes in a Fairly activity, and 4 hours in a Lightly activity.  
+People are engage in a total of 29% of hours of the day doing some physical activity, this means a total of 4,7 hours. They spend 40 minutes in a Very activity, 30 minutes in a Fairly activity, and 4 hours in a Lightly activity.  
 
-On the other hand, 71% of hours they don't do any activity spending almost 12 hours in a Sedentary way.
+On the other hand, 71% of hours they don't do a physical activity spending almost 12 hours in a Sedentary way.
 
 #### Steps
 
@@ -139,11 +139,15 @@ __Daily Activity:__ Total Steps vs. Activity Hours
 
 The total of steps and the hours engaged in some physical activity describes the pattern that when the people is more active they will walk more steps and when they are more sedentary they will walk less.
 
-A hightlighed is the fact that some of them have high hours in a sedentary way without any physical activity and they show a high number of steps, as if they were engage in a lightly or fairly activity. We can see the case of people that have more than 10 hours in a sendentary mode and they took between 10.000 and 15.000 of steps.
+A hightlighed is the fact that some of them have high hours in a sedentary way without any physical activity and they show high number of steps, as if they were engage in a lightly or fairly activity. We can see the case of people that have more than 10 hours in a sendentary mode and they took between 10.000 and 15.000 of steps.
 
-<p align="center"><img width="100%" src="./images/steps_vs_weekday.png"></p> 
+Another hightlighed is that some people have high hours in some activity while they show less number of steps, which could mean the probability of them beign involved in some exercises that doesn't involve walking like gym exercises.  
 
+__Most active day of the week:__ Total Steps vs. Weekday
 
+<p align="center"><img width="100%" src="./images/steps_vs_weekdays.png"></p> 
+
+The most active days are Monday and Tuesday. Monday is the highst with 12925 steps. Meanwhile, from Friday to Sunday are the less active in steps, being Sunday the least with 6746 steps. 
 
 <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> 
 
