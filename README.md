@@ -143,13 +143,11 @@ A hightlighed is the fact that some of them have high hours in a sedentary way w
 
 Another hightlighed is that some people have high hours in some activity while they show less number of steps, which could mean the probability of them beign involved in some exercises that doesn't involve walking like gym exercises.  
 
-__Most active day of the week:__ Total Steps vs. Weekday
+__Most active days of the week:__ Total Steps vs. Weekday
 
 <p align="center"><img width="100%" src="./images/steps_vs_weekdays.png"></p> 
 
-The most active days are Monday and Tuesday. Monday is the highst with 12925 steps. Meanwhile, from Friday to Sunday are the less active in steps, being Sunday the least with 6746 steps. 
-
-<p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> 
+The most active days are Monday and Tuesday. Monday is the highst with 12925 steps. Meanwhile, from Friday to Sunday are the less active in steps, being Sunday the least with 6746 steps. The middle of the week describes an average of activity in steps.
 
 #### Calories
 
@@ -165,7 +163,9 @@ The most active days are Monday and Tuesday. Monday is the highst with 12925 ste
 
 #### Weight
 
-<p align="center"><img width="100%" src="./images/steps_vs_weight.png"></p> 
+| <p align="center"><img width="100%" src="./images/steps_vs_weight.png"></p>  | <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> |
+| ------------- | ------------- |
+
 
 #### Hours asleep
 
