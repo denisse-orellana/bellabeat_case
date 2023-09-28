@@ -147,21 +147,23 @@ __Most active days of the week:__ Total Steps vs. Weekday
 
 <p align="center"><img width="100%" src="./images/steps_vs_weekdays.png"></p> 
 
-The most active days are Monday and Tuesday. Monday is the highst with 12925 steps. Meanwhile, from Friday to Sunday are the less active in steps, being Sunday the least with 6746 steps. The middle of the week describes an average of activity in steps.
+The most active days are Monday, Tuesday and Saturday. Monday is the highst with 12925 steps. Meanwhile, from Friday to Sunday are the less active in steps, being Sunday the least with 6746 steps. The middle of the week describes an average of activity in steps.
 
 #### Calories
 
+__Calories burnt in steps and hours involved:__ 
+
 <p align="center"><img width="100%" src="./images/steps_vs_calories.png"></p> 
 
-<p align="center"><img width="100%" src="./images/steps_vs_calories_sedentary.png"></p> 
+<p align="center"><img width="100%" src="./images/active_hours_vs_calories.png"></p> 
 
+As an normal fact, the most calories are burnt when people walk more and have very active hours.
 
-
-
-<p align="center"><img width="100%" src="./images/active_hours_vs_calories.png"></p>  
-
+It is notice when people are not active they are sedentary, in this hours they still burnt a high amount of calories (2000). This could mean some of them involved in very lightly activity.
 
 #### Weight
+
+__Calories burnt in steps:__ Total Steps vs. Calories
 
 | <p align="center"><img width="100%" src="./images/steps_vs_weight.png"></p>  | <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> |
 | ------------- | ------------- |
