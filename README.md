@@ -170,7 +170,13 @@ __Daily Activity:__ Total Steps vs. Activity Hours
 
 <p align="center"><img width="100%" src="./images/steps_vs_heart_vs_calories.png"></p>
 
+The bar chart by each hour reveals that the most active hours are the 17 pm, 18 pm and 19 pm hour, being the 18 pm hour the highest, and when people have the maximum heart rate (86), burnt the maximum calories (191), and take the maximum steps of the day (1110).
 
+The lowest activity takes place during the night at 3 pm, where the people have the minimum heart rate (60), burnt the minimum calories (71) and take the minimum steps (31) while they are asleep.
+
+In the middle of the day, the people take 1035 steps with a heart rate of 84 and burnt 166 calories. This data is close to the average reviewed in the Summary before. 
+
+The last chart __Steps vs. Heart Rate vs. Calories__, describes the positive relation between the number of steps and the heart rate and calories.
 
 ### 5. Share
 
@@ -179,5 +185,6 @@ Tableau
 
 ### 6. Act
 
-* The data must have a sample that is representative of the population. 
+* More data must be collected to make a better analysis with much more people that consent the use of their personal infomation, estimated of 500, and the period must be of a short-term of at least 2 years. 
+This way, the data will have a sample that is representative of the population and more certain to make a better analysis.
 
