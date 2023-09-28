@@ -163,13 +163,16 @@ It is notice when people are not active they are sedentary, in this hours they s
 
 #### Weight
 
-__Calories burnt in steps:__ Total Steps vs. Calories
+__Relation betweeen Weight and Walking:__ 
 
 | <p align="center"><img width="100%" src="./images/steps_vs_weight.png"></p>  | <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> |
 | ------------- | ------------- |
 
+People presents the average weight of 64 Kg while walking and, as a normal fact, more distance is covered while more are the number oof steps.
 
 #### Hours asleep
+
+__Relation betweeen Hours Asleep and Walking:__ 
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_steps.png"></p> 
 
