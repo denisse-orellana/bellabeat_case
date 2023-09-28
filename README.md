@@ -159,7 +159,7 @@ __Calories burnt in steps and hours involved:__
 
 As an normal fact, the most calories are burnt when people walk more and have very active hours.
 
-It is notice when people are not active they are sedentary, in this hours they still burnt a high amount of calories (2000). This could mean some of them involved in very lightly activity.
+It is noticed when people are not active they are sedentary, in this hours they still burnt a high amount of calories (2000). This could mean some of them involved in very lightly activity.
 
 #### Weight
 
@@ -168,7 +168,7 @@ __Relation betweeen Weight and Walking:__
 | <p align="center"><img width="100%" src="./images/steps_vs_weight.png"></p>  | <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> |
 | ------------- | ------------- |
 
-People presents the average weight of 64 Kg while walking and, as a normal fact, more distance is covered while more are the number oof steps.
+People presents the average weight of 64 Kg while walking and, as a normal fact, more distance is covered while the number of steps are more.
 
 #### Hours asleep
 
@@ -177,6 +177,10 @@ __Relation betweeen Hours Asleep and Walking:__
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_steps.png"></p> 
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_in_bed.png"></p> 
+
+
+
+__Relation betweeen Hours Asleep and Calories:__ 
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_calories.png"></p> 
 
