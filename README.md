@@ -110,7 +110,7 @@ daily_activity$VeryActiveHours <- round((daily_activity$VeryActiveMinutes/60), 1
 | ------------- | ------------- | 
 | <p align="center"><img width="900" src="./images/summary_daily_activity.png"></p> | <p align="center"><img width="100%" src="./images/sum_daily_sleep.png"></p> | 
 
-Daily, the people took 9687 steps and walked 6.5 distance. They spent 11 hours without activity, 40 minutes in a very active activity, and burnt 2052 calories. They also slept 7.2 hours and stayed in bed 7.5 hours, and their weight is of 64 Kg average.
+Daily, the people took 9687 steps and walked 6.5 distance. They spent 11 hours without physical activity, 40 minutes in a very active activity, and burnt 2052 calories. They also slept 7.2 hours and stayed in bed 7.5 hours, and their weight is of 64 Kg average.
 
 | __Hourly Activity__  | 
 | ------------- | 
@@ -125,6 +125,10 @@ Hourly, people took 715 steps with a heart rate of 79 and burnt 144 calories in 
 | <p align="center"><img width="100%" src="./images/activity_hours_pie_chart.png"></p>   | <p align="center"><img width="100%" src="./images/activity_hours_bar_chart.png"></p> |
 | ------------- | -----------
 
+The people engage in a total of 29% of hours of the day doing some physical activity, this means a total of 4,7 hours. They spend 40 minutes in a Very activity, 30 minutes in a Fairly activity, and 4 hours in a Lightly activity.  
+
+On the other hand, 71% of hours they don't do any activity spending almost 12 hours in a Sedentary way.
+
 #### Steps
 
 __Daily Activity:__ Total Steps vs. Activity Hours
@@ -133,13 +137,24 @@ __Daily Activity:__ Total Steps vs. Activity Hours
 | ------------- | ------------- | 
 | <p align="center"><img width="100%" src="./images/steps_vs_lightly_hours.png"></p> | <p align="center"><img width="100%" src="./images/steps_vs_sedentary_hours.png"></p> |
 
+The total of steps and the hours engaged in some physical activity describes the pattern that when the people is more active they will walk more steps and when they are more sedentary they will walk less.
+
+A hightlighed is the fact that some of them have high hours in a sedentary way without any physical activity and they show a high number of steps, as if they were engage in a lightly or fairly activity. We can see the case of people that have more than 10 hours in a sendentary mode and they took between 10.000 and 15.000 of steps.
+
 <p align="center"><img width="100%" src="./images/steps_vs_weekday.png"></p> 
+
+
 
 <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> 
 
 #### Calories
 
 <p align="center"><img width="100%" src="./images/steps_vs_calories.png"></p> 
+
+<p align="center"><img width="100%" src="./images/steps_vs_calories_sedentary.png"></p> 
+
+
+
 
 <p align="center"><img width="100%" src="./images/active_hours_vs_calories.png"></p>  
 
@@ -170,11 +185,11 @@ __Daily Activity:__ Total Steps vs. Activity Hours
 
 <p align="center"><img width="100%" src="./images/steps_vs_heart_vs_calories.png"></p>
 
-The bar chart by each hour reveals that the most active hours are the 17 pm, 18 pm and 19 pm hour, being the 18 pm hour the highest, and when people have the maximum heart rate (86), burnt the maximum calories (191), and take the maximum steps of the day (1110).
+Each hour reveals that the most active hours are the 17 pm, 18 pm and 19 pm hour, being 18 the highest where people have the maximum heart rate (86), burnt the maximum calories (191), and take the maximum steps of the day (1110).
 
-The lowest activity takes place during the night at 3 pm, where the people have the minimum heart rate (60), burnt the minimum calories (71) and take the minimum steps (31) while most of them are asleep.
+The lowest activity takes place during the night at 3 pm where the people have the minimum heart rate (60), burnt the minimum calories (71) and take the minimum steps (31) while most of them are asleep.
 
-In the middle of the day, the people take 1035 steps with a heart rate of 84 and burnt 166 calories. This data is close to the average reviewed in the Summary before. 
+In the middle of the day, people take 1035 steps with a heart rate of 84 and burnt 166 calories. This data is close to the average reviewed in the Summary before. 
 
 The last chart __Steps vs. Heart Rate vs. Calories__, describes the positive relation between the number of steps and the heart rate and calories.
 
