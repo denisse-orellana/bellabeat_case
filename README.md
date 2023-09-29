@@ -231,6 +231,26 @@ __The usage trends of people's smart devices are:__
 * People go to bed at least 30 minutes before sleep, time they spend awake in bed.
 * The most active hours of the day are 17, 18 and 19 p.m. The highest hour of activity when people have the maximum heart rate, burn the maximum calories, and take the maximum steps is at 18 p.m. 
 
+#### Marketing Strategy of Bellabeat 
+
+Main goals based on the usage trends of people:
+* To reduce the sedentary hours
+* To increase the hours of very, fairly, and lightly activity
+* To increase the activity on Sunday
+* To ensure a minimum of 8 hours of sleep
+
+__Recommendations for the Marketing Strategy:__
+* Collect more data for a better analysis and to identify trends over time.
+* Fulfill the main goals with:
+** To inform constantly about exercise routines and healthy diets to increase activity, along with medical and fitness trainer professionals advice.
+
+To reach these main goals it is also advised to:
+* __*The Bellabeat App*__: 
+Create or enhance a feature that will regulate the activity and sleep daily through an alarm notification in the smart devices. 
+*For activity*, the feature will ensure a minimum and maximum time spend in a very, fairly and lightly activity. The alarm can also notify when the sedentary time increases.  
+*For sleep*, the feature will ensure a minimum and maximum of time asleep, this will be calculated and customized for each user. 
+If the time is not being completed, the alarm will notify the individual during the day.
+
 ##### Important note:
 More data must be collected with more people who consent to the use of their personal information. The data will have a sample that is representative of the population and more certain to make a better analysis and identify trends. As an example: 
 * Sample estimated of 500 individuals for a short-term of at least 2 years.
