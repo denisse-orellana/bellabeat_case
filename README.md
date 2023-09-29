@@ -168,21 +168,30 @@ __Relation betweeen Weight and Walking:__
 | <p align="center"><img width="100%" src="./images/steps_vs_weight.png"></p>  | <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> |
 | ------------- | ------------- |
 
-People presents the average weight of 64 Kg while walking and, as a normal fact, more distance is covered while the number of steps are more.
+People presents the average weight of 64 Kg while walking and, as a obvious fact, more distance is covered when the number of steps are increasing.
 
 #### Hours asleep
 
-__Relation betweeen Hours Asleep and Walking:__ 
+__Relation betweeen Hours Asleep and Walking:__ Hours Asleep vs. Steps
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_steps.png"></p> 
 
+__Relation betweeen Hours Asleep and Time in Bed:__ 
+
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_in_bed.png"></p> 
 
+There is not direct correlation between Hours Asleep and Total Steps. 
+When people sleep between 7 and 8 hours they have an increasing number of steps. Also, when they sleep less than 5 hours and more than 9 hours they have a decreasing number of steps.
 
+In the next chart __Hours Asleep and Hours in Bed__, there is a direct correlation between this two variables, more time spend in hours asleep means more time in bed. From this we can see that people go to bed at least 30 minutos before sleep, time that can fluctuate for each individual.
 
 __Relation betweeen Hours Asleep and Calories:__ 
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_calories.png"></p> 
+
+It is an usual question if people burn more calories while sleeping. There is not a direct relation between __Hours Asleep and Calories__. It is noticed when people sleep 5 to 7.5 hours the amount of calories burnt fluctuate in a close range to 2000. 
+
+A hightlighted is when people sleep 9.1 hours they walk 20000 steps, the highest calories burnt. Since this fact doesn't repeat, more data is needed to draw further conclusions.
 
 ### 4.3. Hourly activity
 
