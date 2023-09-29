@@ -182,7 +182,7 @@ __Relation betweeen Hours Asleep and Time in Bed:__
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_in_bed.png"></p> 
 
-In the next chart __Hours Asleep and Hours in Bed__, there is a direct correlation between these two variables, more time spent in hours asleep means more time in bed. From this, we can see people go to bed at least 30 minutes before sleep, time that can fluctuate for each individual.
+In the chart __Hours Asleep and Hours in Bed__, there is a direct correlation between these two variables, more time spent in hours asleep means more time in bed. From this, we can see people go to bed at least 30 minutes before sleep, time that can fluctuate for each individual.
 
 __Relation betweeen Hours Asleep and Calories:__ 
 
@@ -202,7 +202,7 @@ A hightlighted is when people sleep 9.1 hours they walk 20000 steps, the highest
 
 <p align="center"><img width="100%" src="./images/hours_vs__calories.png"></p> 
 
-Each hour reveals that the most active hours are from 17 to 19 p.m. The most active is 18 p.m., when people have the maximum heart rate (86), burn the maximum calories (191), and take the maximum steps of the day (1110).
+The __Hourly Activity__ chart reveals that the most active hours are from 17 to 19 p.m. The most active hour is 18 p.m., when people have the maximum heart rate (86), burn the maximum calories (191), and take the maximum steps of the day (1110).
 
 The lowest activity takes place during the night at 3 p.m., when people have the minimum heart rate (60), burn the minimum calories (71), and take the minimum steps (31), while most of them are asleep.
 
