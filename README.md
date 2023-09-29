@@ -110,7 +110,7 @@ daily_activity$VeryActiveHours <- round((daily_activity$VeryActiveMinutes/60), 1
 | ------------- | ------------- | 
 | <p align="center"><img width="900" src="./images/summary_daily_activity.png"></p> | <p align="center"><img width="100%" src="./images/sum_daily_sleep.png"></p> | 
 
-Daily, the people took 9687 steps and walked 6.5 distance. They spent 11 hours without physical activity, 40 minutes in a very active activity, and burnt 2052 calories. They also slept 7.2 hours and stayed in bed 7.5 hours, and their weight is of 64 Kg average.
+Daily, the people took 9687 steps and walked 6.5 distance. They spent 12 hours without physical activity, 40 minutes in a very active activity, and burnt 2052 calories. They also slept 7.2 hours and stayed in bed 7.5 hours, and their weight is of 64 Kg average.
 
 | __Hourly Activity__  | 
 | ------------- | 
@@ -180,16 +180,15 @@ __Relation betweeen Hours Asleep and Time in Bed:__
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_in_bed.png"></p> 
 
-There is not direct correlation between Hours Asleep and Total Steps. 
-When people sleep between 7 and 8 hours they have an increasing number of steps. Also, when they sleep less than 5 hours and more than 9 hours they have a decreasing number of steps.
+There is not direct correlation between __Hours Asleep and Total Steps__. When people sleep between 7 and 8 hours they have an increasing number of steps. Also, when they sleep less than 5 hours and more than 9 hours they have a decreasing number of steps.
 
-In the next chart __Hours Asleep and Hours in Bed__, there is a direct correlation between this two variables, more time spend in hours asleep means more time in bed. From this we can see that people go to bed at least 30 minutos before sleep, time that can fluctuate for each individual.
+In the next chart __Hours Asleep and Hours in Bed__, there is a direct correlation between this two variables, more time spend in hours asleep means more time in bed. From this we can see that people go to bed at least 30 minutes before sleep, time that can fluctuate for each individual.
 
 __Relation betweeen Hours Asleep and Calories:__ 
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_calories.png"></p> 
 
-It is an usual question if people burn more calories while sleeping. There is not a direct relation between __Hours Asleep and Calories__. It is noticed when people sleep 5 to 7.5 hours the amount of calories burnt fluctuate in a close range to 2000. 
+It is an usual question if people burn more calories while sleeping, but there is not a direct relation between __Hours Asleep and Calories__. It is noticed when people sleep 5 to 7.5 hours the amount of calories burnt fluctuate in a close range to 2000. 
 
 A hightlighted is when people sleep 9.1 hours they walk 20000 steps, the highest calories burnt. Since this fact doesn't repeat, more data is needed to draw further conclusions.
 
@@ -222,6 +221,17 @@ Tableau
 
 ### 6. Act
 
-* More data must be collected to make a better analysis with much more people that consent the use of their personal infomation, estimated of 500, and the period must be of a short-term of at least 2 years. 
-This way, the data will have a sample that is representative of the population and more certain to make a better analysis.
+#### Findings and Conclusions 
+
+__The usage trends of people's smart devices are:__
+* They are engaged in some physical actvity in a total of 4,7 hours of the day: 40 minutes in very, 30 minutes in fairly, and 4 hours in lightly intensity of activity.
+* They spend 12 hours of the day being sedentary.
+* The most active days of the week are Monday, Tuesday and Saturday while the least is Sunday.
+* People that sleep between 7 and 8 hours have an increasing number of steps, meaning an increase in their daily activity.
+* People go to bed at least 30 minutos before sleep, time that they spend awake in bed.
+* The most active hours of the day are 17, 18 and 19 p.m. The highest hour of activity when people have the maximum heart rate, burnt the maximum calories, and take the maximum steps is at 18 p.m. 
+
+__Important note:__
+More data must be collected to make a better analysis with more people that consent the use of their personal infomation. Te data will have a sample that is representative of the population and more certain to make a better analysis and identify trends. As an example: 
+* Sample estimated of 500 individuals for a short-term of at least 2 years.
 
