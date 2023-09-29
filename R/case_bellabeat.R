@@ -23,9 +23,6 @@ hourly_steps <- read.csv("Data/FitBit_Fitness_Tracker_Data/hourlySteps_merged.cs
 heart_rate <- read.csv("Data/FitBit_Fitness_Tracker_Data/heartrate_seconds_merged.csv")
 hourly_calories <- read.csv("Data/FitBit_Fitness_Tracker_Data/hourlyCalories_merged.csv")
 
-daily_calories <- read.csv("Data/FitBit_Fitness_Tracker_Data/dailyCalories_merged.csv")
-daily_steps <- read.csv("Data/FitBit_Fitness_Tracker_Data/dailySteps_merged.csv")
-
 ### Step 2: Inspecting the data
 
 View(daily_activity)
@@ -34,9 +31,6 @@ View(weight_log)
 View(hourly_steps)
 View(heart_rate)
 View(hourly_calories)
-
-View(daily_steps)
-View(daily_calories)
 
 head(daily_activity)
 str(daily_activity)
@@ -49,9 +43,6 @@ length(unique(sleep_day$Id))  # 24
 length(unique(weight_log$Id))  # 8
 length(unique(hourly_steps$Id))  # 33
 length(unique(heart_rate$Id))  # 14
-
-n_distinct(daily_activity$Id) # 33
-n_distinct(heart_rate$Id) # 14
 
 ### PROCESS
 
@@ -74,18 +65,6 @@ weight_log <- weight_log %>%
   mutate(Date = as.Date(Date, format = "%m/%d/%Y")) %>% 
   mutate(Date = format(Date, format = "%m/%d/%Y"))
 # View(weight_log)
-
-daily_calories <- daily_calories %>% 
-  mutate(ActivityDay = as.Date(ActivityDay, format = "%m/%d/%Y")) %>% 
-  mutate(ActivityDay = format(ActivityDay, format = "%m/%d/%Y")) %>% 
-  rename("Date" = "ActivityDay")
-# View(daily_calories)
-
-daily_steps <- daily_steps %>% 
-  mutate(ActivityDay = as.Date(ActivityDay, format = "%m/%d/%Y")) %>% 
-  mutate(ActivityDay = format(ActivityDay, format = "%m/%d/%Y")) %>% 
-  rename("Date" = "ActivityDay")
-# View(daily_steps)
 
 # Transform values
 
@@ -147,11 +126,28 @@ complete_daily_activity <- merge(complete_daily_activity, weight_log, by = c("Id
 # View(complete_daily_activity)
 write_csv(complete_daily_activity, "complete_daily_activity.csv") 
 
+# Calculate average of steps by days of the week
+average_steps_weekdays <- complete_daily_activity %>% 
+  group_by(Weekday) %>% 
+  summarise(TotalSteps = round(mean(TotalSteps), 0))
+# view(average_steps_weekdays)
+write_csv(average_steps_weekdays, "average_steps_weekdays.csv")
+
 # Merge hourly activity
 hourly_activity <- merge(hourly_steps, heart_rate, by = c("Id","Date","Hour"), match = "all")
 hourly_activity <- merge(hourly_activity, hourly_calories, by = c("Id","Date","Hour"), match = "all")
 # View(hourly_activity)
 write_csv(hourly_activity, "hourly_activity.csv")
+
+# Calculate averages of hourly activity
+average_hourly_activity <- hourly_activity %>% 
+  group_by(Hour) %>% 
+  summarise(HeartRate = round(mean(HeartRate), 1), 
+            TotalSteps = round(mean(StepTotal), 1),
+            Calories = round(mean(Calories), 1),
+            TotalCount = n())
+# View(average_hourly_activity)
+write_csv(average_hourly_activity, "average_hourly_activity.csv")
 
 # Create % data with activity and hours (for pie and bar chart)
 activity_hours_average <- complete_daily_activity %>% 
@@ -183,16 +179,6 @@ activity_hours$Hours = c(Very = activity_hours_average$VeryActiveHours,
 # View(activity_hours)
 write_csv(activity_hours, "activity_hours.csv")
 
-# averages of hourly activity
-average_hourly_activity <- hourly_activity %>% 
-  group_by(Hour) %>% 
-  summarise(HeartRate = round(mean(HeartRate), 1), 
-            TotalSteps = round(mean(StepTotal), 1),
-            Calories = round(mean(Calories), 1),
-            TotalCount = n())
-# View(average_hourly_activity)
-write_csv(average_hourly_activity, "average_hourly_activity.csv")
-
 ### ANALIZE
 
 n_distinct(complete_daily_activity$Id) # 5
@@ -222,7 +208,7 @@ hourly_activity %>%
 
 # scatter plot steps vs calories
 ggplot(data = complete_daily_activity) +  
-  geom_point(mapping = aes(x = TotalSteps, y = Calories, color=VeryActiveMinutes)) + 
+  geom_point(mapping = aes(x = TotalSteps, y = Calories, color=VeryActiveHours)) + 
   labs(title="Daily Activity: Total Steps vs. Total Calories", caption="Data Collected by Amazon Mechanical Turk 2016.") + 
   geom_smooth(mapping = aes(x = TotalSteps, y = Calories), method = lm) 
   # scale_color_gradient(low="lightblue", high="darkblue")
@@ -232,6 +218,13 @@ ggplot(data = complete_daily_activity, aes(x = TotalSteps, y = Calories, color=V
   stat_smooth(method = "lm", formula = y ~ x, geom = "smooth") +
   labs(title="Daily Activity: Total Steps vs. Total Calories", caption="Data Collected by Amazon Mechanical Turk 2016.") 
   # stat_smooth(method = "loess", formula = y ~ x, geom = "smooth")
+
+ggplot(data = complete_daily_activity, aes(x = TotalSteps, y = Calories, color=SedentaryHours)) +           
+  geom_point() +
+  stat_smooth(method = "lm", formula = y ~ x, geom = "smooth") +
+  labs(title="Daily Activity: Total Steps vs. Total Calories", caption="Data Collected by Amazon Mechanical Turk 2016.") 
+# stat_smooth(method = "loess", formula = y ~ x, geom = "smooth")
+
 
 # scatter plot steps vs active minutes
 ggplot(data = complete_daily_activity, aes(x = TotalSteps, y = VeryActiveHours), color="steelblue1") + geom_point() + labs(title="Daily Activity: Total Steps vs. Active Hours", caption="Data Collected by Amazon Mechanical Turk 2016.") +  stat_smooth(method = "lm", formula = y ~ x, geom = "smooth")
@@ -256,9 +249,10 @@ ggplot(data = activity_hours, aes(x=Activity, y=Hours, fill=Activity)) +
   labs(x="Activity", y="Hours", title="Daily Activity: Activity vs. Hours", caption="Data Collected by Amazon Mechanical Turk 2016.")
 
 # total steps vs day of the week
-ggplot(data = complete_daily_activity, aes(x=Weekday, y=TotalSteps, fill=Weekday)) + 
+ggplot(data = average_steps_weekdays, aes(x=Weekday, y=TotalSteps, fill=Weekday)) + 
   geom_bar(stat="identity") + 
   scale_fill_brewer(palette="Set2") +
+  geom_text(aes(label = signif(TotalSteps)), nudge_y = 400, size=3.5) +
   labs(title="Daily Activity: Total Steps vs. Weekday", caption="Data Collected by Amazon Mechanical Turk 2016.")
 
 # total steps vs total distance
