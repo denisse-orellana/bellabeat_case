@@ -241,7 +241,7 @@ Main goals based on the usage trends of people:
 
 __Recommendations for the Marketing Strategy:__
 * Collect more data for a better analysis and to identify trends over time.
-* Fulfill the main goals: To inform constantly about exercise routines and healthy diets to increase activity, along with medical and fitness trainer professionals advice.
+* Fulfill the main goals: inform constantly about exercise routines and healthy diets to increase activity, along with medical and fitness trainer professionals advice.
 
 To reach these main goals it is also advised:
 * __*The Bellabeat App*__: 
