@@ -216,8 +216,14 @@ The chart __Steps vs. Heart Rate vs. Calories__, describes the positive relation
 
 ### 5. Share
 
-Presentation
-Tableau 
+#### Tableau
+
+[Tableau Dashboard: Bellabeat Case](https://public.tableau.com/app/profile/denisse.orellaa/viz/bellabeat_case_2/DailyActivity
+)
+
+<p align="center"><img width="100%" src="./images/dashboard_2.png"></p>
+
+<p align="center"><img width="100%" src="./images/dashboard_3.png"></p>
 
 ### 6. Act
 
