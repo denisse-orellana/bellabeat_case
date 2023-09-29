@@ -240,10 +240,10 @@ Main goals based on the usage trends of people:
 * To ensure a minimum of 8 hours of sleep
 
 __Recommendations for the Marketing Strategy:__
-* Collect more data for a better analysis and to identify trends over time.
-* Fulfill the main goals: 
-** Inform constantly about exercise routines and healthy diets to increase activity, along with medical and fitness trainer professionals advice. 
-** __*For the Bellabeat App*__: 
+1. Collect more data for a better analysis and to identify trends over time.
+2. Fulfill the main goals: 
+* Inform constantly about exercise routines and healthy diets to increase activity, along with medical and fitness trainer professionals advice. 
+* __*For the Bellabeat App*__: 
 Create or enhance a feature that will regulate the activity and sleep daily through an alarm notification in the smart devices.  
 *For activity*, the feature will ensure a minimum and maximum time spend in a very, fairly and lightly activity. The alarm can also notify when the sedentary time increases.  
 *For sleep*, the feature will ensure a minimum and maximum of time asleep, this will be calculated and customized for each user.  
