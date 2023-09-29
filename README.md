@@ -116,7 +116,7 @@ Daily, the people took 9687 steps and walked 6.5 distance. They spent 12 hours w
 | ------------- | 
 | <p align="center"><img width="90%" src="./images/sum_hourly_activity.png"></p> |
 
-Hourly, people took 715 steps with a heart rate of 79 and burnt 144 calories in average.
+Hourly, people walk 715 steps with a heart rate of 79 and burn 144 calories in average.
 
 ### 4.2. Daily Activity
 
@@ -125,9 +125,9 @@ Hourly, people took 715 steps with a heart rate of 79 and burnt 144 calories in 
 | <p align="center"><img width="100%" src="./images/activity_hours_pie_chart.png"></p>   | <p align="center"><img width="100%" src="./images/activity_hours_bar_chart.png"></p> |
 | ------------- | -----------
 
-People are engage in a total of 29% of hours of the day doing some physical activity, this means a total of 4,7 hours. They spend 40 minutes in a Very activity, 30 minutes in a Fairly activity, and 4 hours in a Lightly activity.  
+People engage in a total of 29% of hours of the day doing some physical activity, this means a total of 4,7 hours. They spend 40 minutes in a aery, 30 minutes in a fairly, and 4 hours in a lightly activity.  
 
-On the other hand, 71% of hours they don't do a physical activity spending almost 12 hours in a Sedentary way.
+On the other hand, 71% of the rest of the hours they spend 12 hours in a sedentary way and not in some activity.
 
 #### Steps
 
@@ -137,17 +137,17 @@ __Daily Activity:__ Total Steps vs. Activity Hours
 | ------------- | ------------- | 
 | <p align="center"><img width="100%" src="./images/steps_vs_lightly_hours.png"></p> | <p align="center"><img width="100%" src="./images/steps_vs_sedentary_hours.png"></p> |
 
-The total of steps and the hours engaged in some physical activity describes the pattern that when the people is more active they will walk more steps and when they are more sedentary they will walk less.
+The total of steps and the hours engaged in some physical activity describe the pattern when people are more active they will walk more steps and when they are more sedentary they will walk less.
 
-A hightlighed is the fact that some of them have high hours in a sedentary way without any physical activity and they show high number of steps, as if they were engage in a lightly or fairly activity. We can see the case of people that have more than 10 hours in a sendentary mode and they took between 10.000 and 15.000 of steps.
+A highlight is the fact that some of them have high hours in a sedentary way without any physical activity and they show a high number of steps, as if they were engaged in a lightly or fairly activity. We can see the case of people that have more than 10 hours in a sedentary way, and they took between 10000 and 15000 steps.
 
-Another hightlighed is that some people have high hours in some activity while they show less number of steps, which could mean the probability of them beign involved in some exercises that doesn't involve walking like gym exercises.  
+Another highlight is that some people have high hours in some activity while they show a smaller number of steps, which could mean the probability of them being involved in some exercises that doesn't involve walking like gym exercises.  
 
 __Most active days of the week:__ Total Steps vs. Weekday
 
 <p align="center"><img width="100%" src="./images/steps_vs_weekdays.png"></p> 
 
-The most active days are Monday, Tuesday and Saturday. Monday is the highst with 12925 steps. Meanwhile, from Friday to Sunday are the less active in steps, being Sunday the least with 6746 steps. The middle of the week describes an average of activity in steps.
+The most active days are Monday, Tuesday, and Saturday. Monday is the highest with 12925 steps. Meanwhile, Sunday is the less active with a total 6746 steps. The middle of the week describes an average of activity in steps.
 
 #### Calories
 
@@ -157,9 +157,9 @@ __Calories burnt in steps and hours involved:__
 
 <p align="center"><img width="100%" src="./images/active_hours_vs_calories.png"></p> 
 
-As an normal fact, the most calories are burnt when people walk more and have very active hours.
+As a fact, the most calories are burnt when people walk more and have very active hours.
 
-It is noticed when people are not active they are sedentary, in this hours they still burnt a high amount of calories (2000). This could mean some of them involved in very lightly activity.
+It is noticed when people are not active, they are sedentary, in these hours they still burn a high amount of calories (2000). This could mean some of them are involved in very lightly activity.
 
 #### Weight
 
@@ -168,7 +168,7 @@ __Relation betweeen Weight and Walking:__
 | <p align="center"><img width="100%" src="./images/steps_vs_weight.png"></p>  | <p align="center"><img width="100%" src="./images/steps_vs_distance.png"></p> |
 | ------------- | ------------- |
 
-People presents the average weight of 64 Kg while walking and, as a obvious fact, more distance is covered when the number of steps are increasing.
+People present an average weight of 64 Kg while walking and, as an obvious fact, more distance is covered when the number of steps are increasing.
 
 #### Hours asleep
 
@@ -176,13 +176,13 @@ __Relation betweeen Hours Asleep and Walking:__ Hours Asleep vs. Steps
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_steps.png"></p> 
 
+There is no direct correlation between __Hours Asleep and Total Steps__. When people sleep between 7 and 8 hours, they have an increasing number of steps. Also, when they sleep less than 5 hours and more than 9 hours, they have a decreasing number of steps.
+
 __Relation betweeen Hours Asleep and Time in Bed:__ 
 
 <p align="center"><img width="100%" src="./images/hours_asleep_vs_in_bed.png"></p> 
 
-There is not direct correlation between __Hours Asleep and Total Steps__. When people sleep between 7 and 8 hours they have an increasing number of steps. Also, when they sleep less than 5 hours and more than 9 hours they have a decreasing number of steps.
-
-In the next chart __Hours Asleep and Hours in Bed__, there is a direct correlation between this two variables, more time spend in hours asleep means more time in bed. From this we can see that people go to bed at least 30 minutes before sleep, time that can fluctuate for each individual.
+In the next chart __Hours Asleep and Hours in Bed__, there is a direct correlation between these two variables, more time spent in hours asleep means more time in bed. From this, we can see people go to bed at least 30 minutes before sleep, time that can fluctuate for each individual.
 
 __Relation betweeen Hours Asleep and Calories:__ 
 
@@ -202,17 +202,17 @@ A hightlighted is when people sleep 9.1 hours they walk 20000 steps, the highest
 
 <p align="center"><img width="100%" src="./images/hours_vs__calories.png"></p> 
 
+Each hour reveals that the most active hours are from 17 to 19 p.m. The most active is 18 p.m., when people have the maximum heart rate (86), burn the maximum calories (191), and take the maximum steps of the day (1110).
+
+The lowest activity takes place during the night at 3 p.m., when people have the minimum heart rate (60), burn the minimum calories (71), and take the minimum steps (31), while most of them are asleep.
+
+In the middle of the day, people take 1035 steps with a heart rate of 84 and burn 166 calories. This data is close to the average reviewed in the Summary before. 
+
 #### Steps vs. Heart Rate vs. Calories
 
 <p align="center"><img width="100%" src="./images/steps_vs_heart_vs_calories.png"></p>
 
-Each hour reveals that the most active hours are the 17 pm, 18 pm and 19 pm hour, being 18 the highest where people have the maximum heart rate (86), burnt the maximum calories (191), and take the maximum steps of the day (1110).
-
-The lowest activity takes place during the night at 3 pm where the people have the minimum heart rate (60), burnt the minimum calories (71) and take the minimum steps (31) while most of them are asleep.
-
-In the middle of the day, people take 1035 steps with a heart rate of 84 and burnt 166 calories. This data is close to the average reviewed in the Summary before. 
-
-The last chart __Steps vs. Heart Rate vs. Calories__, describes the positive relation between the number of steps and the heart rate and calories.
+The chart __Steps vs. Heart Rate vs. Calories__, describes the positive relation between the number of steps and the heart rate and calories.
 
 ### 5. Share
 
@@ -224,14 +224,14 @@ Tableau
 #### Findings and Conclusions 
 
 __The usage trends of people's smart devices are:__
-* They are engaged in some physical actvity in a total of 4,7 hours of the day: 40 minutes in very, 30 minutes in fairly, and 4 hours in lightly intensity of activity.
+* They are engaged in some physical activity in a total of 4,7 hours of the day: 40 minutes in a very, 30 minutes in a fairly, and 4 hours in a lightly intensity activity.
 * They spend 12 hours of the day being sedentary.
-* The most active days of the week are Monday, Tuesday and Saturday while the least is Sunday.
-* People that sleep between 7 and 8 hours have an increasing number of steps, meaning an increase in their daily activity.
-* People go to bed at least 30 minutos before sleep, time that they spend awake in bed.
-* The most active hours of the day are 17, 18 and 19 p.m. The highest hour of activity when people have the maximum heart rate, burnt the maximum calories, and take the maximum steps is at 18 p.m. 
+* The most active days of the week are Monday, Tuesday, and Saturday while the least is Sunday.
+* People who sleep between 7 and 8 hours have an increasing number of steps, meaning an increase in their daily activity.
+* People go to bed at least 30 minutes before sleep, time they spend awake in bed.
+* The most active hours of the day are 17, 18 and 19 p.m. The highest hour of activity when people have the maximum heart rate, burn the maximum calories, and take the maximum steps is at 18 p.m. 
 
 __Important note:__
-More data must be collected to make a better analysis with more people that consent the use of their personal infomation. Te data will have a sample that is representative of the population and more certain to make a better analysis and identify trends. As an example: 
+More data must be collected to make a better analysis with more people who consent to the use of their personal information. The data will have a sample that is representative of the population and more certain to make a better analysis and identify trends. As an example: 
 * Sample estimated of 500 individuals for a short-term of at least 2 years.
 
