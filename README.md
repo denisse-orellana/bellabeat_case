@@ -245,9 +245,9 @@ __Recommendations for the Marketing Strategy:__
 
 To reach these main goals it is also advised:
 * __*The Bellabeat App*__: 
-Create or enhance a feature that will regulate the activity and sleep daily through an alarm notification in the smart devices. 
+Create or enhance a feature that will regulate the activity and sleep daily through an alarm notification in the smart devices.  
 *For activity*, the feature will ensure a minimum and maximum time spend in a very, fairly and lightly activity. The alarm can also notify when the sedentary time increases.  
-*For sleep*, the feature will ensure a minimum and maximum of time asleep, this will be calculated and customized for each user. 
+*For sleep*, the feature will ensure a minimum and maximum of time asleep, this will be calculated and customized for each user.  
 If the time is not being completed, the alarm will notify the individual during the day.
 
 ##### Important note:
