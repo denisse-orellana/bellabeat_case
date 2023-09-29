@@ -231,7 +231,7 @@ __The usage trends of people's smart devices are:__
 * People go to bed at least 30 minutes before sleep, time they spend awake in bed.
 * The most active hours of the day are 17, 18 and 19 p.m. The highest hour of activity when people have the maximum heart rate, burn the maximum calories, and take the maximum steps is at 18 p.m. 
 
-__Important note:__
+##### Important note:
 More data must be collected with more people who consent to the use of their personal information. The data will have a sample that is representative of the population and more certain to make a better analysis and identify trends. As an example: 
 * Sample estimated of 500 individuals for a short-term of at least 2 years.
 
