@@ -127,7 +127,7 @@ Hourly, people walk 715 steps with a heart rate of 79 and burn 144 calories in a
 
 People engage in a total of 29% of hours of the day doing some physical activity, this means a total of 4,7 hours. They spend 40 minutes in a aery, 30 minutes in a fairly, and 4 hours in a lightly activity.  
 
-On the other hand, 71% of the rest of the hours they spend 12 hours in a sedentary way and not in some activity.
+On the other hand, in the 71% of the rest of the hours, they spend 12 hours in a sedentary way and not in some activity.
 
 #### Steps
 
