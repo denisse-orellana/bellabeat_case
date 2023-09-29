@@ -190,7 +190,7 @@ __Relation betweeen Hours Asleep and Calories:__
 
 It is an usual question if people burn more calories while sleeping, but there is not a direct relation between __Hours Asleep and Calories__. It is noticed when people sleep 5 to 7.5 hours the amount of calories burnt fluctuate in a close range to 2000. 
 
-A hightlighted is when people sleep 9.1 hours they walk 20000 steps, the highest calories burnt. Since this fact doesn't repeat, more data is needed to draw further conclusions.
+A highlight is when people sleep 9.1 hours they walk 20000 steps, the highest calories burnt. Since this fact doesn't repeat, more data is needed to draw further conclusions.
 
 ### 4.3. Hourly activity
 
@@ -202,7 +202,7 @@ A hightlighted is when people sleep 9.1 hours they walk 20000 steps, the highest
 
 <p align="center"><img width="100%" src="./images/hours_vs__calories.png"></p> 
 
-The __Hourly Activity__ chart reveals that the most active hours are from 17 to 19 p.m. The most active hour is 18 p.m., when people have the maximum heart rate (86), burn the maximum calories (191), and take the maximum steps of the day (1110).
+The __Hourly Activity__ chart reveals that the most active hours are from 17 to 19 p.m. The most active hour is at 18 p.m., when people have the maximum heart rate (86), burn the maximum calories (191), and take the maximum steps of the day (1110).
 
 The lowest activity takes place during the night at 3 p.m., when people have the minimum heart rate (60), burn the minimum calories (71), and take the minimum steps (31), while most of them are asleep.
 
