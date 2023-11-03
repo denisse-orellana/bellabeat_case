@@ -2,8 +2,9 @@
 
 This case develops the data analysis process of Ask, Prepare, Process, Analyse, Share and Act of the Google Data Analytics Certificate.
 
-* __Time of analysis v1: August 24, 2023.__
-* __Tools used in v1: R, Tableau, Excel.__
+* __Analysis v1: August 24, 2023.__
+* __Analysis v2: September 29, 2023.__
+* __Tools: R, Tableau, Excel.__
 
 ## Background
 
