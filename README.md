@@ -241,10 +241,10 @@ __The usage trends of people's smart devices are:__
 #### Marketing Strategy of Bellabeat 
 
 Main goals based on the usage trends of people:
-* To reduce the sedentary hours
-* To increase the hours of very, fairly, and lightly activity
-* To increase the activity on Sunday
-* To ensure a minimum of 8 hours of sleep
+* Reduce the sedentary hours
+* Increase the hours of very, fairly, and lightly activity
+* Increase the activity on Sunday
+* Ensure a minimum of 8 hours of sleep
 
 __Recommendations for the Marketing Strategy:__
 1. Collect more data for a better analysis and to identify trends over time.
